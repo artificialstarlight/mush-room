@@ -20,7 +20,7 @@ Logo = resource_path("mush.png")
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 
-IP_address = "3.145.82.81" #server IP goes here
+IP_address = "localhost" #server IP goes here
 Port = 8080
 
 server.connect((IP_address, Port))
