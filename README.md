@@ -2,9 +2,9 @@
 Chat server and client app.
 
 # Usage
-Client (.exe and mush-room-client.py) is configured for my server hosted with AWS. You may edit the port/IP address in the client side code to 8080/"localhost" (respectively) for the client to work with the server running locally.
+The mush-room-client.exe is meant for my instance of the server which is hosted using AWS. It was compiled from Python to .exe using PyInstaller, so some antiviruses may flag it as a false positive.
 
-To run locally, after changing value of variable "IP_address" in mush-room-client.py to "localhost" (quotes included), run mush-server2.py. You can change the value of the variable using a text editor.
+To run locally, run mush-server2.py. You can change the value of the variable using a text editor.
 
 Then, run mush-room-client.py. Connect and enjoy!
 
