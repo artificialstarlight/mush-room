@@ -5,7 +5,7 @@ Chat server and client app.
 
 Run "pip install requirements.txt" in the folder. You must have pip and Python 3.x installed.
 
-The mush-room-client.exe is meant for my instance of the server which is hosted using AWS. It was compiled from Python to .exe using PyInstaller, so some antiviruses may flag it as a false positive.
+The mush-room-client.exe was meant for my instance of the server which was hosted using AWS. It was compiled from Python to .exe using PyInstaller, so some antiviruses may flag it as a false positive.
 
 To run locally, run mush-server2.py. You can change the value of the variable using a text editor.
 
